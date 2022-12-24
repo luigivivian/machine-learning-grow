@@ -1,0 +1,19 @@
+{
+  "name": "machinelearninggrow",
+  "version": "1.0.0",
+  "description": "machine learning to decide if plant needs water irrigation, using the soil umity levels mesure by sensor",
+  "main": "index.js",
+  "scripts": {
+    "test": "/teste"
+  },
+  "author": "luigivivian",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.1.0",
+    "@tensorflow/tfjs-node": "^4.1.0",
+    "@tensorflow/tfjs-vis": "^1.5.1",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "lodash": "^4.17.21"
+  }
+}
