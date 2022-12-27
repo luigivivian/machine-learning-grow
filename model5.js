@@ -9,7 +9,7 @@ var colors = require('colors');
 
 // Define the model architecture
 let model = tf.sequential();
-model.add(tf.layers.dense({units: 32, inputShape: [3]}));
+model.add(tf.layers.dense({units: 3, inputShape: [3]}));
 model.add(tf.layers.dense({units: 10, activation: 'relu' }));
 model.add(tf.layers.dense({units: 1, activation: 'sigmoid'}));
 
